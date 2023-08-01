@@ -1,6 +1,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: rgb(18, 145, 145);
   font-size: 16px;
+  line-height: 1;
 }
 
 textarea {
@@ -28,6 +30,18 @@ textarea {
   padding-bottom: 30px;
 }
 
+.display-3 {
+  text-align: center;
+}
+
+.lead {
+  text-align: center;
+}
+
+#currentDay {
+  text-align: center;
+}
+
 .description {
   white-space: pre-wrap;
 }
@@ -48,7 +62,7 @@ textarea {
   border-top: 1px dashed #000000;
   padding-top: 15px;
   text-align: right;
-  font-size: 20x;
+  font-size: 20px;
 }
 
 /* we are now gonna try to start styling the past, present, and future events to make things clearer */
@@ -85,7 +99,7 @@ textarea {
 }
 
 /* the style for the button that clears the schedule. */
-.clearBtn {
+.clearFieldBtn {
   margin-top: 30px;
   padding: 10px;
   align-items: left;
@@ -94,7 +108,7 @@ textarea {
 
 }
 
-.clearBtn i:hover {
+.clearFieldBtn i:hover {
   font-size:20px;
   transition: all 0.3s ease-in-out;
 }
