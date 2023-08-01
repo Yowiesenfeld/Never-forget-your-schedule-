@@ -31,7 +31,7 @@ textarea {
 .description {
   white-space: pre-wrap;
 }
-
+/* time block time! */
 .time-block {
   text-align: left;
 }
@@ -43,7 +43,7 @@ textarea {
 }
 
 .hour {
-  background-color: #ffffff;
+  background-color: #82c4fa;
   color: #000000;
   border-top: 1px dashed #000000;
   padding-top: 15px;
@@ -53,29 +53,29 @@ textarea {
 
 /* we are now gonna try to start styling the past, present, and future events to make things clearer */
 .past {
-  background-color: #d3d3d3;
+  background-color: #82c4fa;
   color: white;
   border-radius: 15px;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #0772fd;
   color: white;
   border-radius: 15px;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #82c4fa;
   color: white;
   border-radius: 15px;
 }
 
-/* even though i really struggle with buttons im gonna try to work things out with it and make it look cool */
+/* the style for the button that will save the schedule to your local server. */
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #03fd63;
   color: white;
 }
 
@@ -83,3 +83,19 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+/* the style for the button that clears the schedule. */
+.clearBtn {
+  margin-top: 30px;
+  padding: 10px;
+  align-items: left;
+  text-align: center;
+  background-color: rgb(241, 226, 7);
+
+}
+
+.clearBtn i:hover {
+  font-size:20px;
+  transition: all 0.3s ease-in-out;
+}
+
