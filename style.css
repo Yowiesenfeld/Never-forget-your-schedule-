@@ -79,7 +79,7 @@ textarea {
 }
 
 .future {
-  background-color: #82c4fa;
+  background-color: #054375;
   color: white;
   border-radius: 15px;
 }
@@ -89,9 +89,9 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #03fd63;
-  color: white;
-}
+  background-color: #030303;
+  color: rgb(18, 145, 145);
+} 
 
 .saveBtn i:hover {
   font-size: 20px;
