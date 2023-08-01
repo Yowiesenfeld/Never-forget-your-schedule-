@@ -2,7 +2,11 @@
 $(document).ready(function() {
   console.log("Ready!");
   
-});
+  function updateClock() {
+    let currentTime = moment().format("h:mm:ss A");
+    let displayClock = document.getElementById("currentClock");
+  displayClock.innerHTML = currentTime;
+}
 
   //Display current date and time (Moment.js)
   let now = moment().format("dddd, MMMM Do YYYY");
@@ -56,3 +60,7 @@ $(document).ready(function() {
       $("textArea").val("");
       localStorage.clear();
   });
+
+  updateClock(); 
+  setInterval(updateClock, 1000);
+});

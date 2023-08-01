@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
+    <link rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
     />
     <link
@@ -14,76 +13,77 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" 
+    rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Never Forget Anything Important</title>
+    <title>Never Forget Your Schedule</title>
   </head>
 
   <body>
-    <!-- im changing the class name to jumbotron to make things simpler -->
-    <header class="jumbotron"></header>">
+    <!-- this is where the current date is. -->
+    <header class="jumbotron"></header>
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
+      <p id="currentClock" class="lead"></p> <!-- i added a clock that will tell you the time. -->
     </header>
 
     <!-- making timeblocks to go here for the past present and future.  -->
     <div class="container">
       <!-- i added the times for the past present and future. -->
       <div id="hour-09" class="row time-div">
-        <div class="col-md-1 hour"><span id="09">9AM</span></div>
-        <textarea class="col-md-10 time-block description"></textarea>
+        <div class="col-md-1 hour"><span id="09">9AM</div>
+          <textarea class="col-md-10 time-block description"></textarea>
         <button class="col-md-1 saveBtn"><i class="fas fa-lock"></i></button>
       </div>
   
       <div id="hour-10" class="row time-div">
-        <div class="col-md-1 hour"><span id="10"></span>10AM</span></div>
-        <textarea class="col-md-10 time-block description"></textarea>
+        <div class="col-md-1 hour"><span id="10">10AM</div>
+          <textarea class="col-md-10 time-block description"></textarea>
         <button class="col-md-1 saveBtn"><i class="fas fa-lock"></i></button>
       </div>
   
       <div id="hour-11" class="row time-div">
-        <div class="col-md-1 hour"><span id="11">11AM</span></div>
-        <textarea class="col-md-10 time-block description"></textarea>
+        <div class="col-md-1 hour"><span id="11">11AM</div>
+          <textarea class="col-md-10 time-block description"></textarea>
         <button class="col-md-1 saveBtn"><i class="fas fa-lock"></i></button>
       </div>
   
       <div id="hour-12" class="row time-div">
-        <div class="col-md-1 hour"><span id="12">12PM</span></div>
-        <textarea class="col-md-10 time-block description"></textarea>
+        <div class="col-md-1 hour"><span id="12">12PM</div>
+          <textarea class="col-md-10 time-block description"></textarea>
         <button class="col-md-1 saveBtn"><i class="fas fa-lock"></i></button>
       </div>
   
       <div id="hour-13" class="row time-div">
-        <div class="col-md-1 hour"><span id="13">1PM</span></div>
-        <textarea class="col-md-10 time-block description"></textarea>
+        <div class="col-md-1 hour"><span id="13">1PM</div>
+          <textarea class="col-md-10 time-block description"></textarea>
         <button class="col-md-1 saveBtn"><i class="fas fa-lock"></i></button>
       </div>
   
       <div id="hour-14" class="row time-div">
-        <div class="col-md-1 hour"><span id="14">2PM</span></div>
-        <textarea class="col-md-10 time-block description"></textarea>
+        <div class="col-md-1 hour"><span id="14">2PM</div>
+          <textarea class="col-md-10 time-block description"></textarea>
         <button class="col-md-1 saveBtn"><i class="fas fa-lock"></i></button>
       </div>
   
       <div id="hour-15" class="row time-div">
-        <div class="col-md-1 hour"><span id="15">3PM</span></div>
-        <textarea class="col-md-10 time-block description"></textarea>
+        <div class="col-md-1 hour"><span id="15">3PM</div>
+          <textarea class="col-md-10 time-block description"></textarea>
         <button class="col-md-1 saveBtn"><i class="fas fa-lock"></i></button>
       </div>
   
       <div id="hour-16" class="row time-div">
-        <div class="col-md-1 hour"><span id="16">4PM</span></div>
-        <textarea class="col-md-10 time-block description"></textarea>
+        <div class="col-md-1 hour"><span id="16">4PM</div>
+          <textarea class="col-md-10 time-block description"></textarea>
         <button class="col-md-1 saveBtn"><i class="fas fa-lock"></i></button>
       </div>
   
       <div id="hour-17" class="row time-div">
-        <div class="col-md-1 hour"><span id="17">5PM</span></div>
-        <textarea class="col-md-10 time-block description"></textarea>
+        <div class="col-md-1 hour"><span id="17">5PM</div>
+          <textarea class="col-md-10 time-block description"></textarea>
         <button class="col-md-1 saveBtn"><i class="fas fa-lock"></i></button>
       </div>
     <!-- over here i added the time blocjs and buttons and made them clickable. -->
@@ -95,7 +95,7 @@
   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-    <script src="./assets/js/script.js"></script>
+    <script src="./script.js"></script>
 
   </body>
 </html>
